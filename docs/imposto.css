@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+body {
+  background-color: #042345;
+}
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+h1 {
+  color: white;
+}
+
+h1 {
+
+  font-size: 400%;
+}
+
+p  {
+
+  font-size: 150%;
+}
+
+p {
+  color: white;
+}
+
+
+/* Menu*/
+
+#menu-h{
+    background-color: rgb(37, 37, 39);
+}
+
+#menu-h ul {
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+}
+
+#menu-h ul li {
+    display: inline;
+}
+
+#menu-h ul li a {
+    color: #FFF;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+
+#menu-h ul li a:hover {
+    background-color: rgb(24, 139, 233);
+}
+
+
+
+
+/* Topico_1 */
+
+div.Topico_1 {
+  background-image: url('img_venda.PNG');
+  background-size: cover; /* Ajusta o tamanho da imagem para cobrir todo o div */
+  background-position: center; /* Centraliza a imagem no div */
+}
+
+div.Topico_1 {
+padding: 333px;
+}
+
+
+.Topico_1 {
+  position: relative;
+}
+
+.Topico_1 .t1 {
+  position: absolute;
+  left: 50%;
+  top: 13%;
+  transform: translate(-55%, -50%);
+}
+
+.Topico_1 .p1 {
+  position: absolute;
+  left: 40%;
+  top: 26%;
+  transform: translate(-31%, -50%);
+}
+
+
+
+
+
+/* Topico_2 */
+
+div.Topico_2 {
+  padding: 100px;
+}
+
+div.Topico_2 {
+  text-align: center;
+}
+
+
+
+
+
+
+
+/* Topico_3 */
+
+div.Topico_3 {
+  padding: 100px;
+}
+
+div.Topico_3 {
+  text-align: center;
+}
+
+
+
+
+
+/* Topico_4 */
+
+div.Topico_4 {
+  padding: 100px;
+}
+
+div.Topico_4 {
+  text-align: center;
+}
+
+
+
+
+
+
+
+/* equipe */
+
+#equipe {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.equipe {
+  width: 300px; /* Ajuste conforme necessário */
+  text-align: center;
+}
+
+/* container */
+
+
+div.container {
+  padding: 200px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.photo {
+  text-align: center;
+}
+
+.photo img {
+  width: 80%;
+  height: auto;
+}
+
+.photo p {
+  margin-top: 5px;
+}
