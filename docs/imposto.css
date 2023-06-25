@@ -71,11 +71,6 @@ p {
 
 /* Topico_1 */
 
-div.Topico_1 {
-  background-image: url('img_venda.PNG');
-  background-size: cover; /* Ajusta o tamanho da imagem para cobrir todo o div */
-  background-position: center; /* Centraliza a imagem no div */
-}
 
 div.Topico_1 {
 padding: 333px;
